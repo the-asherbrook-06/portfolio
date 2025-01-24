@@ -42,4 +42,10 @@ To run this project locally, follow these steps:
 5. Open your browser and go to `http://localhost:5173` to view the app.
 
 
+## Preview
+![alt text](assets/image.png)
+![alt text](assets/image-1.png)
+![alt text](assets/image-2.png)
+
+
 Thank you for visiting my portfolio!
