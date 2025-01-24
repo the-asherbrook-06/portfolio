@@ -1,0 +1,83 @@
+.projects-card {
+    padding: 2vh 0 2vh 0;
+    background-image: url(../../public/background-projects.jpg);
+    /* background-attachment: fixed; */
+}
+
+.ProjectsH2 {
+    color: var(--on-surface);
+    font-family: "Arial";
+    font-size: 2rem;
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
+.projects {
+    width: 100%;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.projects .card {
+    width: 300px;
+    height: 50vh;
+    padding: 1vh 1vw;
+    border-radius: 10px;
+    font-family: "Arial", sans-serif;
+    color: var(--on-surface);
+    background-color: var(--surface-container);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.projects .card-image {
+    width: 80%;
+    height: 25vh;
+    margin: 30px 10px 30px 10px;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+}
+
+.projects .space {
+    height: 1vh;
+}
+
+.projects .space-image {
+    height: 5vh;
+}
+
+.projects .card:hover {
+    transform: translateY(-5px);
+}
+
+
+@media screen and (max-width: 768px) {
+    .projects {
+        gap: 2vw;
+    }
+
+    .projects .card {
+        width: 80vw;
+        height: 50vh;
+        padding: 2vh 2vw;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .projects {
+        gap: 3vw;
+    }
+
+    .projects .card {
+        width: 85vw;
+        height: 50vh;
+        padding: 2vh 2vw;
+    }
+}

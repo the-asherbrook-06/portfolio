@@ -1,0 +1,57 @@
+.skills {
+    background-color: var(--surface);
+    padding: 2vh 2vw;
+}
+
+.skills .skills-card {
+    background-color: var(--surface-container);
+    padding: 1vh 1vw;
+    border-radius: 10px;
+}
+
+.skills .skills-card .title {
+    color: var(--on-surface);
+    font-family: "Arial";
+    font-size: 2rem;
+}
+
+.skills .skills-card .space-title {
+    height: 2vh;
+}
+
+.skills .skills-card .score {
+    margin: 5px;
+    background-color: var(--surface-container-high);
+    padding: 2vh 1vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.skills .skills-card .score .score-title {
+    color: var(--on-surface);
+    font-family: "Arial";
+    font-weight: 500;
+    width: 5vw;
+}
+
+.skills .skills-card .score .slider {
+    background-color: var(--surface-container-low);
+    height: 15px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.skills .skills-card .score .slider .value {
+    background-size: 300%;
+    background-image: linear-gradient(to right, var(--teal-container), var(--green-container), var(--sage), #00000000, #00000000, #00000000, #00000000, #00000000);
+    background-position: right;
+    border-radius: 10px;
+    height: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.skills .skills-card .score .slider .value.visible {
+    background-position: left;
+}
